@@ -1,1 +1,10 @@
-{}
+{
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "video": false,
+  "projectId": "xgqmie"
+}
