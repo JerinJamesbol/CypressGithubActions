@@ -8,7 +8,8 @@
     "cypress:open": "cypress open",
     "cypress": "run",
     "cypress:dashboard": "cypress run --record --key e6948c6b-06b1-4685-bf80-79d2eb815ee2",
-    "runHeadless": "run --headless"
+    "runHeadless": "run --headless",
+    "build": "webpack --config prod.config.js"
   },
   "cypress:report": "generate-mochawesome-report",
   "devDependencies": {
