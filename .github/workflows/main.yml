@@ -10,3 +10,5 @@ jobs:
     run: npm init -y && npm install
   - name: Cypress run
     uses: cypress-io/github-action@v1
+    env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
